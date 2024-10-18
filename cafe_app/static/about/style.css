@@ -1,0 +1,572 @@
+.about-page {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.about-page .section {
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--color-1);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-page .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 64px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  background-image: url(https://c.animaapp.com/VqlikEZg/img/frame-37.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about-page .nav-bar {
+  display: flex;
+  height: 102px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.about-page .logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-page .text-wrapper {
+  width: fit-content;
+  font-family: "Passions Conflict", Helvetica;
+  color: var(--color-2);
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .site-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.about-page .div {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-2 {
+  position: relative;
+  width: 67px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .left-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+}
+
+.about-page .vector {
+  position: relative;
+  width: 15px;
+  height: 20px;
+}
+
+.about-page .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  height: 132px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--color-2);
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 64px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.about-page .text-wrapper-4 {
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-weight: 600;
+  font-size: 64px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  color: var(--color-5);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .lorem-ipsum-dolor {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.about-page .rectangle {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--color-5);
+}
+
+.about-page .text-wrapper-5 {
+  flex: 1;
+  font-family: "Calligraffitti", Helvetica;
+  color: var(--color-4);
+  position: relative;
+  margin-top: -1.00px;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-wrapper {
+  width: 1280px;
+  padding: 16px 64px;
+  background-image: url(https://c.animaapp.com/VqlikEZg/img/section-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-page .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.about-page .GOOD-IDEA-STARTS {
+  position: relative;
+  width: 877px;
+  height: 158px;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-2);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-5 {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.about-page .rectangle-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--color-1);
+}
+
+.about-page .f-BRAUN {
+  position: relative;
+  flex: 1;
+  height: 64px;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-2);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .section-2 {
+  width: 1280px;
+  gap: 64px;
+  padding: 16px 64px;
+  background-color: var(--color-1);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-page .text-wrapper-6 {
+  width: 1152px;
+  height: 85px;
+  font-weight: 700;
+  font-size: 48px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  color: var(--color-5);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-6 {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.about-page .founder-image {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 500px;
+  align-items: flex-end;
+  position: relative;
+}
+
+.about-page .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 350px;
+}
+
+.about-page .frame-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--color-5);
+}
+
+.about-page .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-2);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-2);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-page .footer {
+  display: flex;
+  width: 1280px;
+  height: 832px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 64px;
+  position: relative;
+  background-color: var(--color-5);
+}
+
+.about-page .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 85px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -0.10px;
+  margin-right: -0.10px;
+}
+
+.about-page .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  width: 183px;
+  margin-top: -1.00px;
+  font-family: "Passions Conflict", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-page .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-11 {
+  position: relative;
+  width: 114px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  height: 15px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-13 {
+  position: relative;
+  width: 112px;
+  height: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-14 {
+  position: relative;
+  width: 112px;
+  height: 14px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-16 {
+  position: relative;
+  align-self: stretch;
+  height: 13px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-17 {
+  position: relative;
+  align-self: stretch;
+  height: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-18 {
+  position: relative;
+  align-self: stretch;
+  height: 14px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-19 {
+  position: relative;
+  width: 109px;
+  height: 12px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-page .text-wrapper-20 {
+  position: relative;
+  width: 110px;
+  height: 14px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .information {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .text-wrapper-21 {
+  position: relative;
+  width: 99px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 200;
+  color: var(--color-2);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-page .frame-10 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
