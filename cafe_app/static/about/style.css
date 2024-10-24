@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict:400|Poppins:600,500,200,400,700|Calligraffitti:400");
 .about-page {
   display: inline-flex;
   flex-direction: column;
@@ -27,10 +29,13 @@
   flex: 1;
   align-self: stretch;
   width: 100%;
-  flex-grow: 1;
   background-image: url(https://c.animaapp.com/VqlikEZg/img/frame-37.png);
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.about-page .frame {
+  flex-grow: 1;
 }
 
 .about-page .nav-bar {
@@ -54,7 +59,7 @@
 
 .about-page .text-wrapper {
   width: fit-content;
-  font-family: "Passions Conflict", Helvetica;
+  font-family: "Passions Conflict", Helvetica, serif;
   color: var(--color-2);
   white-space: nowrap;
   position: relative;
@@ -74,13 +79,16 @@
   position: relative;
   flex: 1;
   align-self: stretch;
+}
+
+.about-page .site-links {
   flex-grow: 1;
 }
 
 .about-page .div {
   position: relative;
   width: fit-content;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 400;
   color: var(--color-2);
   font-size: 14px;
@@ -92,7 +100,7 @@
 .about-page .text-wrapper-2 {
   position: relative;
   width: 67px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 400;
   color: var(--color-2);
   font-size: 14px;
@@ -121,7 +129,7 @@
   position: relative;
   align-self: stretch;
   height: 132px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 500;
   color: var(--color-2);
   font-size: 96px;
@@ -140,6 +148,9 @@
   flex: 1;
   align-self: stretch;
   width: 100%;
+}
+
+.about-page .frame-2 {
   flex-grow: 1;
 }
 
@@ -149,7 +160,7 @@
   font-weight: 600;
   font-size: 64px;
   position: relative;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   color: var(--color-5);
   text-align: center;
   letter-spacing: 0;
@@ -159,7 +170,7 @@
 .about-page .lorem-ipsum-dolor {
   position: relative;
   align-self: stretch;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 400;
   color: var(--color-5);
   font-size: 24px;
@@ -181,14 +192,17 @@
 .about-page .rectangle {
   position: relative;
   flex: 1;
-  flex-grow: 1;
   height: 1px;
   background-color: var(--color-5);
 }
 
+.about-page .rectangle {
+  flex-grow: 1;
+}
+
 .about-page .text-wrapper-5 {
   flex: 1;
-  font-family: "Calligraffitti", Helvetica;
+  font-family: "Calligraffitti", Helvetica, serif;
   color: var(--color-4);
   position: relative;
   margin-top: -1.00px;
@@ -230,7 +244,7 @@
   width: 877px;
   height: 158px;
   margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 600;
   color: var(--color-2);
   font-size: 32px;
@@ -251,9 +265,12 @@
 .about-page .rectangle-2 {
   position: relative;
   flex: 1;
-  flex-grow: 1;
   height: 1px;
   background-color: var(--color-1);
+}
+
+.about-page .rectangle-2 {
+  flex-grow: 1;
 }
 
 .about-page .f-BRAUN {
@@ -261,7 +278,7 @@
   flex: 1;
   height: 64px;
   margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 600;
   color: var(--color-2);
   font-size: 32px;
@@ -289,7 +306,7 @@
   font-weight: 700;
   font-size: 48px;
   position: relative;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   color: var(--color-5);
   text-align: center;
   letter-spacing: 0;
@@ -339,7 +356,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 600;
   color: var(--color-2);
   font-size: 20px;
@@ -351,7 +368,7 @@
 .about-page .text-wrapper-8 {
   position: relative;
   align-self: stretch;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 600;
   color: var(--color-2);
   font-size: 16px;
@@ -391,7 +408,7 @@
   align-self: stretch;
   width: 183px;
   margin-top: -1.00px;
-  font-family: "Passions Conflict", Helvetica;
+  font-family: "Passions Conflict", Helvetica, serif;
   font-weight: 400;
   color: var(--color-1);
   font-size: 64px;
@@ -412,7 +429,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 700;
   color: var(--color-2);
   font-size: 16px;
@@ -423,7 +440,7 @@
 .about-page .text-wrapper-11 {
   position: relative;
   width: 114px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -435,7 +452,7 @@
   position: relative;
   align-self: stretch;
   height: 15px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -447,7 +464,7 @@
   position: relative;
   width: 112px;
   height: 17px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -459,7 +476,7 @@
   position: relative;
   width: 112px;
   height: 14px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -470,7 +487,7 @@
 .about-page .text-wrapper-15 {
   position: relative;
   align-self: stretch;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -482,7 +499,7 @@
   position: relative;
   align-self: stretch;
   height: 13px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -494,7 +511,7 @@
   position: relative;
   align-self: stretch;
   height: 17px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -506,7 +523,7 @@
   position: relative;
   align-self: stretch;
   height: 14px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -518,7 +535,7 @@
   position: relative;
   width: 109px;
   height: 12px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -531,7 +548,7 @@
   position: relative;
   width: 110px;
   height: 14px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
@@ -543,7 +560,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 700;
   color: var(--color-2);
   font-size: 16px;
@@ -554,7 +571,7 @@
 .about-page .text-wrapper-21 {
   position: relative;
   width: 99px;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins", Helvetica, serif;
   font-weight: 200;
   color: var(--color-2);
   font-size: 10px;
