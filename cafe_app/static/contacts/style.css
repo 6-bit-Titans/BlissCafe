@@ -42,7 +42,7 @@ body {
 /* Navbar Styles */
 .contact-page .nav-bar {
   display: flex;
-  height: 5rem;
+  height: 7rem;
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -107,6 +107,7 @@ body {
 
 /* Contact Information Styles */
 .contact-page .text-wrapper-3 {
+  top: 1vh;
   position: relative;
   align-self: stretch;
   font-family: "Poppins", Helvetica;
@@ -117,6 +118,7 @@ body {
 }
 
 .contact-page .frame-2 {
+  top: 10vh;
   display: flex;
   align-items: center;
   margin-left: 300px;
@@ -139,8 +141,8 @@ body {
 
 .contact-page .img {
   position: relative;
-  width: 48px;
-  height: 42px;
+  width: 64px;
+  height: 58px;
 }
 
 .contact-page .text-wrapper-4 {
@@ -160,7 +162,7 @@ body {
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: var(--color-5);
-  font-size: 16px;
+  font-size: 20px;
  text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -191,6 +193,7 @@ body {
 }
 
 .contact-page .frame-6 {
+  bottom: 2vh;
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -212,7 +215,7 @@ body {
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: var(--color-5);
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .contact-page .we-d-love-to-hear {
@@ -221,11 +224,12 @@ body {
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: var(--color-5);
-  font-size: 16px;
+  font-size: 20px;
   line-height: normal;
 }
 
 .contact-page .frame-8 {
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   width: 687px;
@@ -237,12 +241,12 @@ body {
 
 /* Footer Styles */
 .contact-page .footer {
+  height: 50vh;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-around;
   padding: 64px;
-  flex: 1;
   align-self: stretch;
   position: relative;
   flex-grow: 1;
@@ -466,6 +470,7 @@ body {
 }
 
 .contact-page .text-wrapper-7 {
+  height: 4rem;
   position: relative;
   margin-top: -1.00px;
   font-family: "Poppins", Helvetica;
@@ -478,7 +483,7 @@ body {
 
 .contact-page .frame-9 {
   position: relative;
-  height: 10rem;
+  height: 15rem;
   margin-top: -1.00px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
