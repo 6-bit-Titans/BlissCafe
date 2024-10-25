@@ -1,9 +1,13 @@
-a{
+/* General Styles */
+a {
   text-decoration: none;
   color: var(--color-5);
 }
+.frame{
+  height: 100vh;
+}
 
-input{
+input {
   padding: 8px 16px;
   width: 100%;
   background-color: var(--color-2);
@@ -12,9 +16,11 @@ input{
   border-color: var(--color-5);
 }
 
-body{
+body {
   background: var(--color-2);
 }
+
+/* Contact Page Layout */
 .contact-page {
   display: flex;
   flex-direction: column;
@@ -33,9 +39,10 @@ body{
   background-color: var(--color-2);
 }
 
+/* Navbar Styles */
 .contact-page .nav-bar {
   display: flex;
-  height: 102px;
+  height: 5rem;
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -44,12 +51,9 @@ body{
 }
 
 .contact-page .logo {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   position: relative;
-  flex: 0 0 auto;
 }
 
 .contact-page .text-wrapper {
@@ -63,7 +67,6 @@ body{
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
 }
 
 .contact-page .site-links {
@@ -72,7 +75,6 @@ body{
   justify-content: center;
   gap: 64px;
   position: relative;
-  flex: 1;
   align-self: stretch;
   flex-grow: 1;
 }
@@ -83,22 +85,9 @@ body{
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: var(--color-5);
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
 
-.contact-page .text-wrapper-2 {
-  position: relative;
-  width: 67px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: var(--color-5);
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .contact-page .left-nav {
@@ -108,7 +97,6 @@ body{
   gap: 16px;
   position: relative;
   align-self: stretch;
-  flex: 0 0 auto;
 }
 
 .contact-page .vector {
@@ -117,6 +105,7 @@ body{
   height: 20px;
 }
 
+/* Contact Information Styles */
 .contact-page .text-wrapper-3 {
   position: relative;
   align-self: stretch;
@@ -125,8 +114,6 @@ body{
   color: var(--color-5);
   font-size: 64px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .contact-page .frame-2 {
@@ -137,7 +124,7 @@ body{
   position: relative;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
+  margin-bottom: 64px;
 }
 
 .contact-page .frame-3 {
@@ -152,18 +139,17 @@ body{
 
 .contact-page .img {
   position: relative;
-  width: 88px;
-  height: 77px;
+  width: 48px;
+  height: 42px;
 }
 
 .contact-page .text-wrapper-4 {
   position: relative;
   align-self: stretch;
-  height: 55px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: var(--color-5);
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0.96px;
   line-height: normal;
@@ -171,13 +157,11 @@ body{
 
 .contact-page .text-wrapper-5 {
   position: relative;
-  width: 294px;
-  height: 76px;
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: var(--color-5);
-  font-size: 20px;
-  text-align: center;
+  font-size: 16px;
+ text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -185,32 +169,17 @@ body{
 .contact-page .rectangle {
   position: relative;
   width: 1px;
-  height: 232px;
+  height: 200px;
   background-color: var(--color-5);
   transform: rotate(180deg);
   opacity: 0.69;
 }
 
-.contact-page .frame-4 {
-  display: flex;
-  flex-direction: column;
-  width: 312px;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  position: relative;
-}
-
-.contact-page .search-location {
-  position: relative;
-  width: 85px;
-  height: 77px;
-}
-
+/* Contact Form Styles */
 .contact-page .frame-5 {
   display: flex;
+  height: 100vh;
   flex-direction: column;
-  height: 832px;
   align-items: center;
   justify-content: center;
   gap: 24px;
@@ -225,14 +194,12 @@ body{
   display: inline-flex;
   align-items: center;
   position: relative;
-  flex: 0 0 auto;
 }
 
 .contact-page .frame-7 {
   display: flex;
   flex-direction: column;
   width: 458px;
-  height: 487px;
   align-items: center;
   justify-content: center;
   gap: 64px;
@@ -245,9 +212,7 @@ body{
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: var(--color-5);
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
+  font-size: 32px;
 }
 
 .contact-page .we-d-love-to-hear {
@@ -256,8 +221,7 @@ body{
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: var(--color-5);
-  font-size: 20px;
-  letter-spacing: 0;
+  font-size: 16px;
   line-height: normal;
 }
 
@@ -265,101 +229,13 @@ body{
   display: flex;
   flex-direction: column;
   width: 687px;
-  height: 500px;
   align-items: flex-start;
   justify-content: flex-end;
   gap: 16px;
   position: relative;
 }
 
-
-
-.contact-page .div-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 8px 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: var(--color-2);
-  border-radius: 35px;
-  border: 1px solid;
-  border-color: var(--color-5);
-}
-
-.contact-page .text-wrapper-7 {
-  position: relative;
-  height: 60px;
-  margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: var(--color-5);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.contact-page .frame-9 {
-  position: relative;
-  height: 15rem;
-  margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: var(--color-5);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.contact-page .text-wrapper-8 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: var(--color-5);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.contact-page .frame-10 {
-  display: flex;
-  width: 228px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 16px 48px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: var(--color-5);
-  border-radius: 35px;
-}
-
-.contact-page .text-wrapper-9 {
-  display: flex;
-  width: 228px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 16px 48px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: var(--color-5);
-  border-radius: 35px;
-  margin-top: -1.00px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: var(--color-1);
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
+/* Footer Styles */
 .contact-page .footer {
   display: flex;
   width: 100%;
@@ -571,4 +447,89 @@ body{
 .contact-page .frame-14 {
   position: relative;
   flex: 0 0 auto;
+}
+
+.contact-page .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--color-2);
+  border-radius: 35px;
+  border: 1px solid;
+  border-color: var(--color-5);
+}
+
+.contact-page .text-wrapper-7 {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-page .frame-9 {
+  position: relative;
+  height: 10rem;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-page .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-5);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-page .frame-10 {
+  display: flex;
+  width: 228px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 48px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--color-5);
+  border-radius: 35px;
+}
+
+.contact-page .text-wrapper-9 {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 48px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--color-5);
+  border-radius: 35px;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--color-1);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }

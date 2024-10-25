@@ -7,83 +7,84 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacts</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="{% static 'cafe_app/static/globals.css' %}" />
     <link rel="stylesheet" href="{% static 'cafe_app/static/styleguide.css' %}" />
     <link rel="stylesheet" href="{% static 'cafe_app/static/contacts/style.css' %}" />
 </head>
 <body>
 <div class="contact-page">
-      <div class="frame">
-        <div class="nav-bar">
-          <div class="logo"><div class="text-wrapper"><a href="{% url 'home' %}">Bliss Cafe</a></div></div>
-          <div class="site-links">
-            <div class="div"><a href="{% url 'home' %}">Home</a></div>
-            <div class="div"><a href="{% url 'menu' %}">Menu</a></div>
-            <div class="div"><a href="{% url 'contacts' %}">Contact</a></div>
-            <div class="text-wrapper-2"><a href="{% url 'about' %}">About</a></div>
-            <div class="text-wrapper-2"><a href="{% url 'team' %}">Team</a></div>
-          </div>
-          <div class="left-nav">
-            <img
-              class="vector"
-              src="https://c.animaapp.com/KE5xh4eU/img/vector.svg"
-            />
-            <div class="div"><a href="https://maps.app.goo.gl/3MpCMnF3P9vNk3Ds9">Find Store</a></div>
 
-          </div>
+    <!-- Navbar Section -->
+    <div class="frame">
+        <div class="nav-bar">
+            <div class="logo">
+                <div class="text-wrapper">
+                    <a href="{% url 'home' %}">Bliss Cafe</a>
+                </div>
+            </div>
+            <div class="site-links">
+                <div class="div"><a href="{% url 'home' %}">Home</a></div>
+                <div class="div"><a href="{% url 'menu' %}">Menu</a></div>
+                <div class="div"><a href="{% url 'contacts' %}">Contact</a></div>
+                <div class="div"><a href="{% url 'about' %}">About</a></div>
+                <div class="div"><a href="{% url 'team' %}">Team</a></div>
+            </div>
+            <div class="left-nav">
+                <img class="vector" src="https://c.animaapp.com/KE5xh4eU/img/vector.svg" />
+                <div class="div">
+                    <a href="https://maps.app.goo.gl/3MpCMnF3P9vNk3Ds9">Find Store</a>
+                </div>
+            </div>
         </div>
+
+        <!-- Contact Information Section -->
         <div class="text-wrapper-3">Contact Us</div>
         <div class="frame-2">
-          <div class="frame-3">
-            <img
-              class="img"
-              src="https://c.animaapp.com/KE5xh4eU/img/vector-1.svg"
-            />
-            <div class="text-wrapper-4">+254 740 200 000</div>
-            <div class="text-wrapper-5">
-              Got questions? We’re always here to chat over a cup of coffee.<br />
+            <div class="frame-3">
+                <img class="img" src="https://c.animaapp.com/KE5xh4eU/img/vector-1.svg" />
+                <div class="text-wrapper-4">+254 740 200 000</div>
+                <div class="text-wrapper-5">
+                    Got questions? We’re always here to chat over a cup of coffee.<br />
+                </div>
             </div>
-          </div>
-          <div class="rectangle"></div>
-          <div class="frame-3">
-            <img
-              class="img"
-              src="https://c.animaapp.com/KE5xh4eU/img/vector-2.svg"
-            />
-            <div class="text-wrapper-4">blisscafe@gmail.com</div>
-            <div class="text-wrapper-5">
-              Shoot us an email here. <br />We’re brewing up some <br />great conversations!
+            <div class="rectangle"></div>
+            <div class="frame-3">
+                <img class="img" src="https://c.animaapp.com/KE5xh4eU/img/vector-2.svg" />
+                <div class="text-wrapper-4">blisscafe@gmail.com</div>
+                <div class="text-wrapper-5">
+                    Shoot us an email here. <br />We’re brewing up some <br />great conversations!
+                </div>
             </div>
-          </div>
-          <div class="rectangle"></div>
-          <div class="frame-4">
-            <img
-              class="search-location"
-              src="https://c.animaapp.com/KE5xh4eU/img/search-location.svg"
-            />
-            <div class="text-wrapper-4">Nairobi, Westlands</div>
-            <p class="text-wrapper-5">
-              Visit us and get to sip, savor, and enjoy!
-            </p>
-          </div>
+            <div class="rectangle"></div>
+            <div class="frame-3">
+                <img class="img" src="https://c.animaapp.com/KE5xh4eU/img/search-location.svg" />
+                <div class="text-wrapper-4">Nairobi, Westlands</div>
+                <p class="text-wrapper-5">
+                    Visit us and get to sip, savor, and enjoy!
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="frame-5">
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="frame-5">
         <div class="frame-6">
-          <div class="frame-7">
-            <div class="text-wrapper-6">Get In Touch!!</div>
-            <div class="we-d-love-to-hear">
-              We’d love to hear from you!<br />Whether you have questions about
-              our menu, need catering for your next event, or just want to chat about our
-              love for coffee, we’re here for you. <br />Drop us a message, give us a call, or visit us<br />
-                in person, we can’t wait to connect!
+            <div class="frame-7">
+                <div class="text-wrapper-6">Get In Touch!!</div>
+                <div class="we-d-love-to-hear">
+                    We’d love to hear from you!<br />Whether you have questions about
+                    our menu, need catering for your next event, or just want to chat about our
+                    love for coffee, we’re here for you. <br />Drop us a message, give us a call, or visit us<br />
+                    in person, we can’t wait to connect!
+                </div>
             </div>
-          </div>
             <form action="" method="POST">
                 {% csrf_token %}
                 <div class="frame-8">
                     <input type="text" class="text-wrapper-7" placeholder="Name:">
-                    <input type="text" class="text-wrapper-7" placeholder="Phone:">
+                    <input type="text" class="text-wrapper-7" placeholder ="Phone:">
                     <input type="text" class="text-wrapper-7" placeholder="Email:">
                     <input type="text" class="frame-9" placeholder="Message:">
                 </div>
@@ -91,49 +92,48 @@
                 <input type="submit" class="text-wrapper-9" value="Submit">
             </form>
         </div>
-      </div>
-      <footer class="footer">
-        <div class="frame-11">
-          <div class="text-wrapper-10">Bliss Cafe</div>
-          <div class="frame-12">
-            <div class="text-wrapper-11">Privacy</div>
-            <div class="text-wrapper-12">Privacy Priority</div>
-            <div class="text-wrapper-13">Protecting Information</div>
-            <div class="text-wrapper-14">Improving Experience</div>
-            <div class="text-wrapper-15">No Data Sharing</div>
-          </div>
-          <div class="frame-12">
-            <div class="text-wrapper-11">Services</div>
-            <div class="text-wrapper-16">Free wifi</div>
-            <div class="text-wrapper-16">Specialty coffee</div>
-            <div class="text-wrapper-16">Delicious bites</div>
-            <div class="text-wrapper-16">Catering</div>
-          </div>
-          <div class="frame-12">
-            <div class="text-wrapper-11">About</div>
-            <div class="text-wrapper-17">Community Hub</div>
-            <div class="text-wrapper-18">Great Coffee</div>
-            <div class="text-wrapper-19">Memorable Moments</div>
-            <div class="text-wrapper-20">Top-notch Baristas</div>
-            <div class="text-wrapper-21">Welcoming Vibe</div>
-          </div>
-          <div class="frame-12">
-            <div class="information">Information</div>
-            <div class="text-wrapper-16">Opening hours</div>
-            <div class="text-wrapper-22">Payment methods</div>
-            <div class="text-wrapper-16">Cafe location</div>
-            <div class="text-wrapper-16">Loyalty program</div>
-            <div class="text-wrapper-16">Dietary options</div>
-          </div>
-          <div class="frame-13">
-            <div class="text-wrapper-11">Social Media</div>
-            <img
-              class="frame-14"
-              src="https://c.animaapp.com/KE5xh4eU/img/frame-14.svg"
-            />
-          </div>
-        </div>
-      </footer>
     </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="frame-11">
+            <div class="text-wrapper-10">Bliss Cafe</div>
+            <div class="frame-12">
+                <div class="text-wrapper-11">Privacy</div>
+                <div class="text-wrapper-12">Privacy Priority</div>
+                <div class="text-wrapper-13">Protecting Information</div>
+                <div class="text-wrapper-14">Improving Experience</div>
+                <div class="text-wrapper-15">No Data Sharing</div>
+            </div>
+            <div class="frame-12">
+                <div class="text-wrapper-11">Services</div>
+                <div class="text-wrapper-16">Free wifi</div>
+                <div class="text-wrapper-16">Specialty coffee</div>
+                <div class="text-wrapper-16">Delicious bites</div>
+                <div class="text-wrapper-16">Catering</div>
+            </div>
+            <div class="frame-12">
+                <div class="text-wrapper-11">About</div>
+                <div class="text-wrapper-17">Community Hub</div>
+                <div class="text-wrapper-18">Great Coffee</div>
+                <div class="text-wrapper-19">Memorable Moments</div>
+                <div class="text-wrapper-20">Top-notch Baristas</div>
+                <div class="text-wrapper-21">Welcoming Vibe</div>
+            </div>
+            <div class="frame-12">
+                <div class="information">Information</div>
+                <div class="text-wrapper-16">Opening hours</div>
+                <div class="text-wrapper-22">Payment methods</div>
+                <div class="text-wrapper-16">Cafe location</div>
+                <div class="text-wrapper-16">Loyalty program</div>
+                <div class="text-wrapper-16">Dietary options</div>
+            </div>
+            <div class="frame-13">
+                <div class="text-wrapper-11">Social Media</div>
+                <img class="frame-14" src="https://c.animaapp.com/KE5xh4eU/img/frame-14.svg" />
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
