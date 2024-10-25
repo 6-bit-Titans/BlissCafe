@@ -1,10 +1,14 @@
 from django.shortcuts import render
 
+from .data.home_data import coffee_data, dessert_data
+
 # Create your views here.
 
 
 def home(request):
-    return render(request, "home.html")
+    return render(
+        request, "home.html", {"coffee_data": coffee_data, "dessert_data": dessert_data}
+    )
 
 
 def contacts(request):
